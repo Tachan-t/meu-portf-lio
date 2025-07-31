@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 document.addEventListener('DOMContentLoaded', function() {
 
     // 1. LÓGICA DO MENU MOBILE
@@ -117,7 +117,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (e.target === detailsModal) closeModal();
         });
     }
-=======
+});
 document.addEventListener('DOMContentLoaded', function() {
 
     // 1. LÓGICA DO MENU MOBILE
@@ -236,5 +236,5 @@ document.addEventListener('DOMContentLoaded', function() {
             if (e.target === detailsModal) closeModal();
         });
     }
->>>>>>> a47da6535885e82a7e3540a9a0775619bf8977d2
+ a47da6535885e82a7e3540a9a0775619bf8977d2
 });

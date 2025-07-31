@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* 1. RESET E ESTILOS GLOBAIS */
 :root {
     --primary-color: #ff6f61; /* Coral */
@@ -253,7 +253,7 @@ main.page-transition-out { opacity: 0; }
     section { padding: 60px 15px; }
     .about-image img { width: 200px; height: 200px; }
     .contact-links img { width: 35px; height: 35px; }
-=======
+
 /* 1. RESET E ESTILOS GLOBAIS */
 :root {
     --primary-color: #ff6f61; /* Coral */
