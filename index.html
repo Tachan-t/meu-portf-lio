@@ -12,12 +12,9 @@
     <meta name="robots" content="index, follow">
 
     <meta property="og:type" content="website">
-    
     <meta property="og:url" content="https://tachan-t.github.io/meu-portf-lio/"> 
-    
     <meta property="og:title" content="Natacha Bezerra | Estratégia & Tecnologia">
     <meta property="og:description" content="Graduada em Administração & Pós em Full Stack. Veja como uno negócios e código para criar soluções inovadoras.">
-    
     <meta property="og:image" content="https://tachan-t.github.io/meu-portf-lio/imagens/1000121945.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -35,18 +32,8 @@
 
     <link rel="icon" href="favicon/apple-touch-icon.png" type="image/png">
     <link rel="shortcut icon" href="favicon/apple-touch-icon.png" type="image/png">
-
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    
     <link rel="manifest" href="favicon/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
-
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
-    <meta name="msapplication-TileColor" content="#ff6f61">
     <meta name="theme-color" content="#ffffff">
 </head>
 <body>
@@ -114,37 +101,30 @@
                 <h2>Minhas Habilidades</h2>
                 
                 <div class="skills-grid">
-                    
                     <div class="skill-card">
                         <i class="fas fa-brain"></i>
                         <span>Inteligência Artificial</span>
                     </div>
-
                     <div class="skill-card">
                         <i class="fas fa-network-wired"></i>
                         <span>Automação & n8n</span>
                     </div>
-
                     <div class="skill-card">
                         <i class="fas fa-chess-knight"></i>
                         <span>Estratégia & Inovação</span>
                     </div>
-
                     <div class="skill-card">
                         <i class="fas fa-chart-line"></i>
                         <span>Análise de Dados</span>
                     </div>
-
                     <div class="skill-card">
                         <i class="fas fa-code"></i>
                         <span>Web Dev (HTML/CSS/JS)</span>
                     </div>
-
                     <div class="skill-card">
                         <i class="fas fa-bullhorn"></i>
                         <span>Marketing Digital</span>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -155,32 +135,67 @@
 
                 <div class="project-tabs">
                     <button class="tab-btn active" data-category="todos">Todos</button>
-                    <button class="tab-btn" data-category="sistemas">Sistemas & Plataformas</button>
+                    <button class="tab-btn" data-category="web">Desenvolvimento Web</button>
                     <button class="tab-btn" data-category="automacoes">Automações</button>
                     <button class="tab-btn" data-category="universitarios">Projetos Universitários</button>
                 </div>
 
                 <div class="project-grid">
 
-                <div class="project-card" 
-                     data-category="automacoes" 
-                     data-image="imagens/agente_ia.png" 
-                     data-title="Estudo de Caso: Agente de Pesquisa com IA"
-                     data-section1-title="O Desafio Pessoal"
-                     data-section1-content="Como primeiro projeto prático com Agentes de IA, o desafio foi integrar múltiplas tecnologias (n8n, Google Gemini, Flutter) para construir uma solução funcional do zero, aprendendo a orquestrar o fluxo de dados desde a interface mobile até a resposta da inteligência artificial."
-                     data-section2-title="A Solução Desenvolvida"
-                     data-section2-content="Criei um agente de pesquisa totalmente funcional. O sistema utiliza um workflow no n8n que recebe um prompt de um aplicativo mobile feito em Flutter. Esse prompt é processado pelo modelo Google Gemini, que utiliza a ferramenta de busca Tavily para pesquisar na web e formular uma resposta, que é então enviada de volta para o chat no aplicativo."
-                     data-section3-title="Tecnologias e Ferramentas"
-                     data-section3-content="<ul><li><strong>Orquestração:</strong> n8n</li><li><strong>IA (LLM):</strong> Google Gemini</li><li><strong>Busca:</strong> Tavily AI</li><li><strong>Mobile:</strong> Flutter (Dart)</li><li><strong>Comunicação:</strong> API REST (HTTP POST, JSON)</li></ul>"
-                     data-section4-title="Principais Aprendizados e Habilidades"
-                     data-section4-content="Este projeto foi uma jornada de aprendizado intensivo, onde desenvolvi e demonstrei competências em:<ul><li><strong>Desenvolvimento de Agentes de IA:</strong> Configuração e orquestração de fluxos complexos.</li><li><strong>Integração de APIs:</strong> Comunicação assíncrona entre o frontend (Flutter) e o backend (n8n).</li><li><strong>Desenvolvimento Mobile:</strong> Criação de uma interface de chat funcional e intuitiva.</li><li><strong>Resolução de Problemas:</strong> Depuração de webhooks, parseamento de JSON e configuração de nós de IA.</li></ul>">
-                    <img src="imagens/agente_ia.png" alt="Agente de Pesquisa com IA">
-                    <h3>Agente de Pesquisa com IA</h3>
-                    <p>Agente de IA com n8n e Google Gemini, integrado a uma interface mobile em Flutter para pesquisas inteligentes.</p>
-                    <button class="details-btn">Ver Detalhes</button>
-                </div>
+                    <div class="project-card" 
+                         data-category="automacoes" 
+                         data-image="imagens/automacao_workflow.png" 
+                         data-title="Automação de Eventos (Live MKT)"
+                         data-section1-title="O Desafio"
+                         data-section1-content="Centralizar o controle de comunicação de eventos institucionais da UniFECAF. O objetivo era evitar envios duplicados e garantir que áreas específicas (Foto, Audiovisual, Infra, etc.) recebessem apenas as informações relevantes de forma padronizada."
+                         data-section2-title="A Solução (Arquitetura)"
+                         data-section2-content="Desenvolvi um workflow no n8n onde o Google Sheets atua como 'fonte da verdade'. O sistema detecta alterações na planilha, valida o ID do evento, gera itens individuais por área, monta e-mails HTML personalizados com a identidade visual da marca e atualiza o status final na planilha automaticamente."
+                         data-section3-title="Stack Tecnológica"
+                         data-section3-content="<ul><li><strong>Orquestração:</strong> n8n (Workflow Complexo)</li><li><strong>Banco de Dados:</strong> Google Sheets</li><li><strong>Comunicação:</strong> Gmail API</li><li><strong>Lógica:</strong> JavaScript (Code Nodes)</li></ul>"
+                         data-section4-title="Resultados e Boas Práticas"
+                         data-section4-content="O projeto está operacional e estabeleceu um novo padrão de governança. Destaques: Proteção contra envios duplicados (Loop Control), código defensivo e independência técnica para o time de Marketing.">
+                        <img src="imagens/automacao_capa.png" alt="Capa Automação Live MKT">
+                        <h3>Automação de Eventos</h3>
+                        <p>Sistema inteligente no n8n para disparo de e-mails de eventos usando Google Sheets como centro de controle.</p>
+                        <button class="details-btn">Ver Detalhes</button>
+                    </div>
 
-                    <div class="project-card" data-category="sistemas" 
+                    <div class="project-card" 
+                        data-category="automacoes" 
+                        data-image="imagens/agente_ia_workflow.png" 
+                        data-title="Estudo de Caso: Agente de Pesquisa com IA"
+                        data-section1-title="O Desafio Pessoal"
+                        data-section1-content="Como primeiro projeto prático com Agentes de IA, o desafio foi integrar múltiplas tecnologias (n8n, Google Gemini, Flutter) para construir uma solução funcional do zero."
+                        data-section2-title="A Solução Desenvolvida"
+                        data-section2-content="Criei um agente de pesquisa totalmente funcional. O sistema utiliza um workflow no n8n que recebe um prompt de um aplicativo mobile feito em Flutter. Esse prompt é processado pelo modelo Google Gemini."
+                        data-section3-title="Tecnologias e Ferramentas"
+                        data-section3-content="<ul><li><strong>Orquestração:</strong> n8n</li><li><strong>IA (LLM):</strong> Google Gemini</li><li><strong>Busca:</strong> Tavily AI</li><li><strong>Mobile:</strong> Flutter (Dart)</li></ul>"
+                        data-section4-title="Principais Aprendizados"
+                        data-section4-content="Desenvolvimento de Agentes de IA, integração de APIs e orquestração de fluxos complexos.">
+                        <img src="imagens/agente_ia_capa.png" alt="Capa Agente de Pesquisa com IA">
+                        <h3>Agente de Pesquisa com IA</h3>
+                        <p>Agente de IA com n8n e Google Gemini, integrado a uma interface mobile em Flutter.</p>
+                        <button class="details-btn">Ver Detalhes</button>
+                    </div>
+
+                    <div class="project-card" data-category="web"
+                        data-image="imagens/MEU SITE.png"
+                        data-title="Projeto: Desenvolvimento Web Full Stack"
+                        data-section1-title="O Objetivo"
+                        data-section1-content="Criar uma presença digital profissional que unisse minhas duas vertentes: Administração e Tecnologia. O desafio não foi apenas 'fazer um site', mas construir uma aplicação performática, responsiva e otimizada para buscadores (SEO)."
+                        data-section2-title="Engenharia e Tecnologias"
+                        data-section2-content="<ul><li><strong>HTML5 Semântico:</strong> Estruturação correta para acessibilidade e SEO.</li><li><strong>CSS3 Moderno:</strong> Uso de Flexbox, Grid Layout e animações.</li><li><strong>JavaScript (ES6+):</strong> Manipulação do DOM para modais dinâmicos e filtros.</li></ul>"
+                        data-section3-title="Destaques Técnicos"
+                        data-section3-content="Implementação de Open Graph Protocol para redes sociais, Favicon multiplataforma e otimização de performance."
+                        data-section4-title="Metodologia"
+                        data-section4-content="Desenvolvimento iterativo utilizando IA como 'Pair Programmer' para aceleração de código.">
+                        <img src="imagens/MEU SITE.png" alt="Projeto Meu Portfólio">
+                        <h3>Meu Portfólio Web</h3>
+                        <p>Aplicação desenvolvida do zero com foco em SEO, Design Responsivo e manipulação do DOM.</p>
+                        <button class="details-btn">Ver Detalhes</button>
+                    </div>
+
+                    <div class="project-card" data-category="web" 
                          data-image="imagens/MENTOR.AI.png"
                          data-title="Estudo de Caso: MENTOR.IA"
                          data-section1-title="O Desafio"
@@ -197,63 +212,62 @@
                         <button class="details-btn">Ver Detalhes</button>
                     </div>
 
-                    <div class="project-card" data-category="sistemas"
+                    <div class="project-card" data-category="web"
                          data-image="imagens/Study Spark.png"
                          data-title="Iniciativa: Study Spark"
-                         data-section1-title="O Objetivo"
-                         data-section1-content="Criar uma forma rápida e moderna para jovens aprenderem inglês via TikTok."
-                         data-section2-title="Estratégia"
-                         data-section2-content="Vídeos curtos e dinâmicos focados em vocabulário prático e retenção."
-                         data-section3-title="Meu Papel"
-                         data-section3-content="Responsável por todo o ciclo: pesquisa, roteiro, gravação, edição e analytics.">
+                         
+                         data-section1-title="Estratégia de Produto"
+                         data-section1-content="Validar um modelo de 'Micro-learning' (aprendizado rápido) utilizando o algoritmo do TikTok para distribuição de conteúdo educacional em massa."
+                         
+                         data-section2-title="Execução"
+                         data-section2-content="Criação de roteiros baseados em gatilhos mentais de curiosidade e retenção. Edição dinâmica focada em manter o 'Watch Time' (tempo de visualização) alto."
+                         
+                         data-section3-title="Skills Aplicadas"
+                         data-section3-content="<ul><li>Análise de Métricas (Analytics)</li><li>Marketing de Conteúdo</li><li>Edição de Vídeo (CapCut)</li><li>Growth Hacking</li></ul>"
+                         
+                         data-section4-title="Resultado"
+                         data-section4-content="Criação de uma comunidade engajada e validação do formato de ensino curto para jovens.">
                         <img src="imagens/Study Spark.png" alt="Projeto Study Spark">
                         <h3>Study Spark</h3>
-                        <p>Iniciativa no TikTok para impulsionar o aprendizado de inglês de forma moderna.</p>
-                        <button class="details-btn">Ver Detalhes</button>
-                    </div>
-
-                    <div class="project-card" data-category="sistemas"
-                        data-image="imagens/MEU SITE.png"
-                         data-title="Projeto: Portfólio Pessoal"
-                         data-section1-title="O Desafio"
-                         data-section1-content="Desenvolver do zero um portfólio web moderno e interativo aplicando conceitos Full Stack."
-                         data-section2-title="Tecnologias"
-                         data-section2-content="<ul><li>HTML5 Semântico</li><li>CSS3 (Grid/Flexbox)</li><li>JavaScript (ES6+)</li></ul>"
-                         data-section3-title="O Processo"
-                         data-section3-content="Jornada de aprendizado intenso, implementando modais dinâmicos e design responsivo.">
-                        <img src="imagens/MEU SITE.png" alt="Projeto Meu Portfólio">
-                        <h3>Meu Portfólio</h3>
-                        <p>Projeto criado com dedicação utilizando JavaScript, CSS Moderno e HTML.</p>
+                        <p>Iniciativa de EdTech no TikTok focada em Micro-learning e estratégia de conteúdo.</p>
                         <button class="details-btn">Ver Detalhes</button>
                     </div>
 
                     <div class="project-card" data-category="universitarios"
                         data-image="imagens/Complienc.jpeg"
-                        data-title="Projeto Acadêmico: Compliance Strategic"
-                         data-section1-title="Contexto"
-                         data-section1-content="Trabalho desenvolvido na disciplina de Administração para aplicar governança corporativa."
-                         data-section2-title="A Proposta"
-                         data-section2-content="Consultoria fictícia para ajudar PMEs a implementarem práticas de compliance."
-                         data-section3-title="Entregáveis"
-                         data-section3-content="O principal produto foi a 'Cartilha Empresarial de Compliance'.">
+                        data-title="Projeto Acadêmico: Agência Compliance Strategic"
+                        data-section1-title="O Cenário e Meu Papel"
+                        data-section1-content="Desenvolvimento de uma agência de consultoria simulada, focada em reestruturar a governança de empresas. Atuei como <strong>Diretora-Sócia Executiva</strong>."
+                        data-section2-title="A Solução Proposta"
+                        data-section2-content="Estruturamos uma solução completa de Compliance baseada em pilares de Integridade, Qualidade e Sustentabilidade, incluindo mapeamento de ISO 19600 e ISO 37001."
+                        data-section3-title="Entregáveis Principais"
+                        data-section3-content="<ul><li><strong>Cartilha de Integridade:</strong> Código de conduta, LGPD e ESG.</li><li><strong>CS App (Conceito):</strong> Idealização de aplicativo para denúncias.</li></ul>"
+                        data-section4-title="Material Completo"
+                        data-section4-content="<a href='docs/apresentacao-compliance.pdf' target='_blank' style='display:inline-block; background-color:#fff; color:#000; padding:10px 20px; border-radius:5px; text-decoration:none; font-weight:bold; border:1px solid #ccc; margin-top:10px;'><i class='fas fa-file-pdf'></i> Ver Apresentação do Projeto</a>">
                         <img src="imagens/Complienc.jpeg" alt="Projeto Compliance Strategic">
-                        <h3>Compliance Strategic</h3>
-                        <p>Agência fictícia desenvolvida para aplicar conceitos de Compliance e Ética.</p>
+                        <h3>Agência - Compliance Strategic</h3>
+                        <p>Consultoria desenvolvida com foco em Governança, ESG, LGPD e inovação tecnológica.</p>
                         <button class="details-btn">Ver Detalhes</button>
                     </div>
                     
                     <div class="project-card" data-category="universitarios"
                         data-image="imagens/hacklab2.png"
-                        data-title="Conquista: BiCampeã Hacklab SEMESP"
-                         data-section1-title="A Competição"
-                         data-section1-content="Maratona de inovação para resolver problemas reais da educação."
-                         data-section2-title="Minha Jornada"
-                         data-section2-content="Participei de duas edições consecutivas, liderando equipes multidisciplinares."
-                         data-section3-title="O Resultado"
-                         data-section3-content="Conquistar o título duas vezes validou meu potencial para inovar e liderar.">
-                        <img src="imagens/hacklab2.png" alt="BiCampeã Hacklab SEMESP">
-                        <h3>BiCampeã Hacklab</h3>
-                        <p>Prova de criatividade e colaboração que impulsionou meu crescimento.</p>
+                        data-title="Conquista: Bi-Campeã Hacklab SEMESP"
+                        
+                         data-section1-title="O Ambiente"
+                         data-section1-content="Hackathon de alta pressão focado em inovação para o setor educacional. O desafio exige ideação, validação e prototipagem em tempo recorde."
+                         
+                         data-section2-title="Liderança e Gestão"
+                         data-section2-content="Atuei como Product Owner (PO) e Líder de Equipe em duas edições. Fui responsável por gerenciar conflitos, definir o MVP (Produto Mínimo Viável) e garantir que a apresentação (Pitch) fosse persuasiva."
+                         
+                         data-section3-title="Soft Skills em Ação"
+                         data-section3-content="<ul><li>Liderança Situacional</li><li>Comunicação Estratégica</li><li>Trabalho em Equipe Multidisciplinar</li><li>Resolução Rápida de Problemas</li></ul>"
+                         
+                         data-section4-title="O Resultado"
+                         data-section4-content="Conquistar o 1º lugar por dois anos consecutivos validou minha capacidade de liderar times rumo à inovação sob pressão.">
+                        <img src="imagens/hacklab2.png" alt="Bi-Campeã Hacklab SEMESP">
+                        <h3>Bi-Campeã Hacklab</h3>
+                        <p>Liderança de equipes e gestão de produto (MVP) em maratona de inovação.</p>
                         <button class="details-btn">Ver Detalhes</button>
                     </div>
 
@@ -324,7 +338,7 @@
                                 data-section1-title="Atribuições"
                                 data-section1-content="Planejamento de marketing digital e criação de campanhas para redes sociais."
                                 data-section2-title="Ferramentas"
-                                data-section2-content="<ul><li>Canva & CapCut</li><li>Meta Business Suite</li><li>Instagram & TikTok</li></ul>"
+                                data-section2-content="<ul><li>Canva & CapCut</li><li>Instagram & TikTok</li></ul>"
                                 data-section3-title="Resultados"
                                 data-section3-content="Aumento de 60% no engajamento e alcance das publicações.">
                                 <img src="imagens/Coord.jpeg" alt="Atlética Esquadrão">
@@ -351,7 +365,7 @@
                             </div>
                         </div>
                     </div>
-                     <div class="swiper-pagination"></div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </section>

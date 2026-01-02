@@ -21,9 +21,14 @@ html { scroll-behavior: smooth; }
 body {
     font-family: 'Poppins', sans-serif;
     color: var(--text-dark);
-    font-size: 18px; /* Texto base aumentado */
+    font-size: 18px;
     line-height: 1.8;
+    
+    /* MUDANÇA: Fundo com iluminação radial (Glow) */
     background-color: var(--dark-bg);
+    background-image: radial-gradient(circle at 50% 0%, #1f1f1f 0%, #050505 70%);
+    background-attachment: fixed; /* A luz fica fixa enquanto você rola a página */
+    
     overflow-x: hidden;
 }
 
@@ -251,7 +256,10 @@ header {
     position: relative;
 }
 .project-card, .carousel-item, .experience-card {
-    background: var(--card-bg);
+    /* MUDANÇA: Fundo semi-transparente para modernidade */
+    background: rgba(18, 18, 18, 0.6); 
+    backdrop-filter: blur(10px); /* O famoso efeito "vidro" sutil */
+    
     border-radius: 12px;
     padding: 30px;
     text-align: left;
