@@ -3,17 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio Natacha Bezerra</title>
-    <!-- Fontes do Google -->
+    
+    <title>Natacha Bezerra | Admin & Full Stack Dev</title>
+
+    <meta name="description" content="Portfólio de Natacha Bezerra: Administradora e Pós-graduanda em Full Stack. Especialista em unir Negócios, IA e Automação para criar soluções reais.">
+    <meta name="keywords" content="Natacha Bezerra, Full Stack Developer, Administração, Inteligência Artificial, Automação, n8n, Portfólio, Web Development">
+    <meta name="author" content="Natacha Bezerra">
+    <meta name="robots" content="index, follow">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://tachan-t.github.io/portfolio/"> 
+    <meta property="og:title" content="Natacha Bezerra | Estratégia & Tecnologia">
+    <meta property="og:description" content="Graduada em Administração & Pós em Full Stack. Veja como uno negócios e código para criar soluções inovadoras.">
+    <meta property="og:image" content="imagens/1000121945.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Natacha Bezerra | Admin & Dev">
+    <meta property="twitter:description" content="Conheça meu portfólio de projetos em IA, Automação e Web.">
+    <meta property="twitter:image" content="imagens/1000121945.jpg">
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <!-- Swiper.js CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <!-- Font Awesome (para os ícones) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
-    <!-- Seu CSS -->
     <link rel="stylesheet" href="styles/styles.css">
 
-    <!-- CÓDIGO DO FAVICON -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -23,7 +36,6 @@
 </head>
 <body>
 
-    <!-- MENU VERTICAL PARA DESKTOP -->
     <nav class="vertical-nav">
         <ul>
             <li><a href="#home" class="nav-link active" aria-label="Início"><i class="fas fa-home"></i><span class="nav-text">Início</span></a></li>
@@ -34,7 +46,6 @@
         </ul>
     </nav>
 
-    <!-- MENU DE HAMBÚRGUER PARA MOBILE -->
     <nav class="navbar">
         <button class="menu-toggle" aria-label="Abrir menu">☰</button>
         <ul class="nav-links">
@@ -45,7 +56,7 @@
         </ul>
     </nav>
 
-<header id="home">
+    <header id="home">
         <div class="video-container">
             <video autoplay muted loop playsinline>
                 <source src="videos/videoplayback.mp4" type="video/mp4">
@@ -85,7 +96,7 @@
             </div>
         </section>
 
-<section id="skills" class="skills">
+        <section id="skills" class="skills">
             <div class="container">
                 <h2>Minhas Habilidades</h2>
                 
@@ -129,7 +140,6 @@
             <div class="container">
                 <h2>Meus Projetos</h2>
 
-                <!-- ABAS DE CATEGORIA -->
                 <div class="project-tabs">
                     <button class="tab-btn active" data-category="todos">Todos</button>
                     <button class="tab-btn" data-category="sistemas">Sistemas & Plataformas</button>
@@ -137,46 +147,25 @@
                     <button class="tab-btn" data-category="universitarios">Projetos Universitários</button>
                 </div>
 
-                <!-- GRADE DE PROJETOS -->
                 <div class="project-grid">
 
                 <div class="project-card" 
-     data-category="automacoes" 
-     
-     data-image="imagens/agente_ia.png" 
-     data-title="Estudo de Caso: Agente de Pesquisa com IA"
-     
-     data-section1-title="O Desafio Pessoal"
-     data-section1-content="Como primeiro projeto prático com Agentes de IA, o desafio foi integrar múltiplas tecnologias (n8n, Google Gemini, Flutter) para construir uma solução funcional do zero, aprendendo a orquestrar o fluxo de dados desde a interface mobile até a resposta da inteligência artificial."
-     
-     data-section2-title="A Solução Desenvolvida"
-     data-section2-content="Criei um agente de pesquisa totalmente funcional. O sistema utiliza um workflow no n8n que recebe um prompt de um aplicativo mobile feito em Flutter. Esse prompt é processado pelo modelo Google Gemini, que utiliza a ferramenta de busca Tavily para pesquisar na web e formular uma resposta, que é então enviada de volta para o chat no aplicativo."
-     
-     data-section3-title="Tecnologias e Ferramentas"
-     data-section3-content="<ul>
-                              <li><strong>Orquestração:</strong> n8n</li>
-                              <li><strong>IA (LLM):</strong> Google Gemini</li>
-                              <li><strong>Busca:</strong> Tavily AI</li>
-                              <li><strong>Mobile:</strong> Flutter (Dart)</li>
-                              <li><strong>Comunicação:</strong> API REST (HTTP POST, JSON)</li>
-                            </ul>"
-     
-     data-section4-title="Principais Aprendizados e Habilidades"
-     data-section4-content="Este projeto foi uma jornada de aprendizado intensivo, onde desenvolvi e demonstrei competências em:
-                            <ul>
-                              <li><strong>Desenvolvimento de Agentes de IA:</strong> Configuração e orquestração de fluxos complexos.</li>
-                              <li><strong>Integração de APIs:</strong> Comunicação assíncrona entre o frontend (Flutter) e o backend (n8n).</li>
-                              <li><strong>Desenvolvimento Mobile:</strong> Criação de uma interface de chat funcional e intuitiva.</li>
-                              <li><strong>Resolução de Problemas:</strong> Depuração de webhooks, parseamento de JSON e configuração de nós de IA.</li>
-                            </ul>"
->
-    <!-- Conteúdo visível no card -->
-    <img src="imagens/agente_ia.png" alt="Agente de Pesquisa com IA">
-    <h3>Agente de Pesquisa com IA</h3>
-    <p>Agente de IA com n8n e Google Gemini, integrado a uma interface mobile em Flutter para pesquisas inteligentes.</p>
-    <button class="details-btn">Ver Detalhes</button>
-</div>
-
+                     data-category="automacoes" 
+                     data-image="imagens/agente_ia.png" 
+                     data-title="Estudo de Caso: Agente de Pesquisa com IA"
+                     data-section1-title="O Desafio Pessoal"
+                     data-section1-content="Como primeiro projeto prático com Agentes de IA, o desafio foi integrar múltiplas tecnologias (n8n, Google Gemini, Flutter) para construir uma solução funcional do zero, aprendendo a orquestrar o fluxo de dados desde a interface mobile até a resposta da inteligência artificial."
+                     data-section2-title="A Solução Desenvolvida"
+                     data-section2-content="Criei um agente de pesquisa totalmente funcional. O sistema utiliza um workflow no n8n que recebe um prompt de um aplicativo mobile feito em Flutter. Esse prompt é processado pelo modelo Google Gemini, que utiliza a ferramenta de busca Tavily para pesquisar na web e formular uma resposta, que é então enviada de volta para o chat no aplicativo."
+                     data-section3-title="Tecnologias e Ferramentas"
+                     data-section3-content="<ul><li><strong>Orquestração:</strong> n8n</li><li><strong>IA (LLM):</strong> Google Gemini</li><li><strong>Busca:</strong> Tavily AI</li><li><strong>Mobile:</strong> Flutter (Dart)</li><li><strong>Comunicação:</strong> API REST (HTTP POST, JSON)</li></ul>"
+                     data-section4-title="Principais Aprendizados e Habilidades"
+                     data-section4-content="Este projeto foi uma jornada de aprendizado intensivo, onde desenvolvi e demonstrei competências em:<ul><li><strong>Desenvolvimento de Agentes de IA:</strong> Configuração e orquestração de fluxos complexos.</li><li><strong>Integração de APIs:</strong> Comunicação assíncrona entre o frontend (Flutter) e o backend (n8n).</li><li><strong>Desenvolvimento Mobile:</strong> Criação de uma interface de chat funcional e intuitiva.</li><li><strong>Resolução de Problemas:</strong> Depuração de webhooks, parseamento de JSON e configuração de nós de IA.</li></ul>">
+                    <img src="imagens/agente_ia.png" alt="Agente de Pesquisa com IA">
+                    <h3>Agente de Pesquisa com IA</h3>
+                    <p>Agente de IA com n8n e Google Gemini, integrado a uma interface mobile em Flutter para pesquisas inteligentes.</p>
+                    <button class="details-btn">Ver Detalhes</button>
+                </div>
 
                     <div class="project-card" data-category="sistemas" 
                          data-image="imagens/MENTOR.AI.png"
@@ -371,19 +360,16 @@
         <p>© 2024 Meu Portfólio. Todos os direitos reservados a Natacha Bezerra.</p>
     </footer>
 
-    <!-- ESTRUTURA GENÉRICA DO MODAL -->
     <div id="details-modal" class="modal">
         <div class="modal-content">
             <button class="close-modal-btn" aria-label="Fechar">×</button>
             <h2 id="modal-title"></h2>
             <img id="modal-image" src="" alt="Imagem do Detalhe" style="width:100%; border-radius: 8px; margin-bottom: 20px; display: none;">
             <div id="modal-details-content">
-                <!-- O conteúdo dinâmico será inserido aqui pelo JavaScript -->
-            </div>
+                </div>
         </div>
     </div>
 
-    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="styles/script.js"></script>
 </body>
